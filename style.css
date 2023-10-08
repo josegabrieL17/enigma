@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(16, 16, 16);
+}
+p{
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+    opacity: 0;
+    transition: opacity 2s ease;
+    color: rgba(255, 0, 0, 0.789);
+    font-family: 'Pixelify Sans', cursive;
+}
+h2{
+    text-align: center;
+    color: green;
+    font-family: 'Pixelify Sans', cursive;
+    
+}
+.comeco{
+    text-align: center;
+    color: green;
+    font-family: 'Pixelify Sans', cursive;
+}
+input, button{
+    background-color: rgb(22, 98, 10);
+    border: none;
+    padding: relative;
+    font-size: 16px;
+    box-shadow: 0px 0px 5px white, 0px 0px 25px rgb(91, 183, 10);
+    transition: box-shadow 0.3s ease;
+}
+input:hover, button:hover{
+    box-shadow: 0px 0px 13px white, 0px 0px 65px rgb(110, 255, 53);
+}
+p{
+    color: green;
+}
+img{
+    align-items: center;
+}

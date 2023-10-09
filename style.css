@@ -16,9 +16,13 @@ h2{
     text-align: center;
     color: green;
     font-family: 'Pixelify Sans', cursive;
-    
 }
 .comeco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
     text-align: center;
     color: green;
     font-family: 'Pixelify Sans', cursive;
@@ -26,7 +30,8 @@ h2{
 input, button{
     background-color: rgb(22, 98, 10);
     border: none;
-    padding: relative;
+    padding: 5px;
+    margin: 5px;
     font-size: 16px;
     box-shadow: 0px 0px 5px white, 0px 0px 25px rgb(91, 183, 10);
     transition: box-shadow 0.3s ease;
